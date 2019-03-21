@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gkimport"
+version = "0.1.1"
+description = ""
+authors = ["mlimotte <mslimotte@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+gkeepapi = "^0.11.5"
+keyring = "^18.0"
+html2text = "^2018.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
